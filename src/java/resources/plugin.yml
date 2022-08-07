@@ -1,0 +1,6 @@
+name: VillagerTradeEvent
+version: '${project.version}'
+main: me.abetgt.villagertradeevent.VillagerTradeEvent
+api-version: 1.19
+authors: [ AbeTGT ]
+description: An event that occurs when a player trades with a villager.
