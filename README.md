@@ -1,3 +1,4 @@
+![alt text](https://img.shields.io/badge/Version-1.1-blue?style=for-the-badge&logo=appveyor)
 # VillagerTradeEvent
 Detect when players have traded with a villager, without the use of Paper server software. (Spigot)
 Spigot: https://www.spigotmc.org/resources/villagertradeevent.104298/
