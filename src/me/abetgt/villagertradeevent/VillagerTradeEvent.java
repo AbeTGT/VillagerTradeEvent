@@ -17,7 +17,7 @@ public final class VillagerTradeEvent extends PlayerEvent implements Cancellable
     private ItemStack eventItem;
     private MerchantInventory eventMerchantInventory;
     private MerchantRecipe eventMerchantRecipe;
-    private Integer eventReturnSlot;
+    private int eventReturnSlot;
 
     /**
      * An event that triggers when a player trades with a villager/merchant.
@@ -28,7 +28,7 @@ public final class VillagerTradeEvent extends PlayerEvent implements Cancellable
                       MerchantInventory merchantInventory,
                       MerchantRecipe merchantRecipe,
                       ItemStack returnItem,
-                      Integer returnSlot
+                      int returnSlot
     ){
         super(player);
         eventvillager = villager;
@@ -65,7 +65,7 @@ public final class VillagerTradeEvent extends PlayerEvent implements Cancellable
      * <p>This is an integer. If you are looking at getting the item, please use getItem().</p>
      * @return Returns the item slot involved.
      */
-    public Integer getItemSlot() {return eventReturnSlot;}
+    public int getItemSlot() {return eventReturnSlot;}
 
     public static HandlerList getHandlerList(){
         return handlers;
