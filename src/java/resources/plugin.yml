@@ -1,6 +1,7 @@
 name: VillagerTradeEvent
 version: '${project.version}'
-main: me.abetgt.villagertradeevent.VillagerTradeEvent
+main: me.abetgt.villagertradeevent.TradeEventHandler
 api-version: 1.19
 authors: [ AbeTGT ]
-description: An event that occurs when a player trades with a villager.
+description: Detect when players have traded with a villager, without the use of Paper server software.
+website: http://oasisnetwork.cf
