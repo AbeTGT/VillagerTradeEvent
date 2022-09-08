@@ -25,3 +25,12 @@ Otherwise, if you are using Gradle, you can add the JitPack repository:
 			maven { url 'https://jitpack.io' }
 		}
 ```
+
+Make sure to change the "Tag" to the current version listed above (1.1). Maven dependency:
+```xml
+	<dependency>
+	    <groupId>com.github.AbeTGT</groupId>
+	    <artifactId>VillagerTradeEvent</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
