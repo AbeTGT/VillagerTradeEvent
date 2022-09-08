@@ -14,7 +14,7 @@ If you are on Maven, you can add the JitPack repository:
 ```
 
 Otherwise, if you are using Gradle, you can add the JitPack repository:
-```xml
+```gradle
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
